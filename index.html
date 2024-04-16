@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240416184949">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__text text">
+				<div class="text__container">
+					<div class="registration">
+						<h2 class="registration__title">Запис на постачання</h2>
+						<div class="registration__table">
+							<h3 class="registration__title-tabel">Контактні дані</h3>
+							<div class="registration__body">
+								<div class="registration__item">
+									<div class="registration__data">Юридична особа</div>
+									<div class="registration__information">Липецький</div>
+								</div>
+								<div class="registration__item">
+									<div class="registration__data">Ім’я</div>
+									<div class="registration__information">Анатолій</div>
+								</div>
+								<div class="registration__item">
+									<div class="registration__data">Телефон</div>
+									<div class="registration__information">+380 97 000 00 00</div>
+								</div>
+								<div class="registration__item">
+									<div class="registration__data">Email</div>
+									<div class="registration__information">tttgggg20@gmail.com</div>
+								</div>
+							</div>
+						</div>
+						<h3 class="registration__title-tabel">Планування</h3>
+						<div class="registration__select select-reg">
+							<div class="select-reg__main">
+								<label class="registration__data">Вибір параметрів*</label>
+								<select class="select" name="form[]" id="selectForm">
+									<option data-class="main" value="main" selected>Оберіть мету запису</option>
+									<option data-class="visitor" value="visitor">Відвідувач</option>
+									<option data-class="download" value="download">Завантаження</option>
+								</select>
+							</div>
+							<div class="select-reg__item visitor">
+								<div class="select-reg__input">
+									<label class="registration__data" for="ПІБ">ПІБ*</label>
+									<input id="ПІБ" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Липецький Анатолій Анатолійович" class="input">
+								</div>
+								<div class="select-reg__input">
+									<label class="registration__data" for="Куди йде">Куди йде*</label>
+									<input id="Куди йде" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="бухгалтерія" class="input">
+								</div>
+							</div>
+							<div class="select-reg__item download">
+								<div class="select-reg__input">
+									<label class="registration__data" for="Юридична особа">Юридична особа*</label>
+									<input id="Юридична особа" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="ООО ТоргПром" class="input">
+								</div>
+								<div class="select-reg__input">
+									<label class="registration__data" for="Рампа">Рампа*</label>
+									<select class="input" name="form[]" id="Рампа" data-class-modif="form">
+										<option value="1" selected> 1</option>
+										<option value="2"> 2</option>
+										<option value="3"> 3</option>
+										<option value="4"> 4</option>
+									</select>
+								</div>
+								<div class="select-reg__input">
+									<label class="registration__data" for="Кількість палет">Кількість палет</label>
+									<input id="Кількість палет" autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="5" class="input">
+								</div>
+							</div>
+							<div class="select-reg__textaria">
+								<label class="registration__data" for="textaria Юридична особа">Додаткова інформація</label>
+								<textarea id="textaria Юридична особа" name="Юридична особа" placeholder="Питання які вас цікавлять" class="input"></textarea>
+							</div>
+						</div>
+						<div class="registration__buttons">
+							<a href="#" class="registration__button button">Повернутися назад</a>
+							<a href="#" class="registration__button button button--green">Далі</a>
+						</div>
+						<div class="registration__record">
+							<div class="registration__table">
+								<h3 class="registration__title-tabel">Запис на постачання</h3>
+								<div class="registration__body">
+									<div class="registration__item">
+										<div class="registration__data">Дата</div>
+										<div class="registration__information"><span>Липецький</span></div>
+									</div>
+									<div class="registration__item">
+										<div class="registration__data">Час</div>
+										<div class="registration__information"><span>Липецький</span></div>
+									</div>
+									<div class="registration__item">
+										<div class="registration__data">Рампа</div>
+										<div class="registration__information">+380 97 000 00 00</div>
+									</div>
+									<div class="registration__item">
+										<div class="registration__data">Юридична особа</div>
+										<div class="registration__information">tttgggg20@gmail.com</div>
+									</div>
+									<div class="registration__item">
+										<div class="registration__data">Кількість палет</div>
+										<div class="registration__information">tttgggg20@gmail.com</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240416184949"></script>
+</body>
+
+</html>
